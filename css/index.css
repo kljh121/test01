@@ -1,0 +1,414 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.clear {
+	clear: both;
+}
+
+/*页面头部样式开始*/
+
+.header {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	background-color: #07cbc9;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.header img {
+	display: block;
+	margin-left: 100px;
+	width: 260px;
+	height: 48px;
+	padding-top: 16px;
+}
+.header .logo {
+	float: left;
+}
+.header .nav {
+	float: right;
+}
+.header .nav ul {
+	padding-right: 80px;
+}
+.header .nav ul li {
+	float: left;
+	margin-right: 15px;
+	height: 80px;
+	list-style: none;
+	cursor: pointer;
+}
+.header .nav ul li a {
+	padding: 5px;
+}
+.header .nav ul li:hover {
+	background-color: orange;
+}
+
+/*页面头部样式结束*/
+
+/*banner 图区域样式开始*/
+
+.banner {
+	position: relative;
+	top: 80px;
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+}
+.banner img {
+	width: 100%;
+	height: 800px;
+}
+.banner .topLayer {
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	z-index: 1;
+}
+.banner .form {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	right: 50%;
+	margin-top: -215px;
+	margin-right: -274.5px;
+	z-index: 2;
+}
+.banner .form input,
+.banner .form textarea,
+.banner .form button {
+	margin: 20px;
+	background: transparent;
+	color: #fff;
+}
+.banner .form input {
+	display: block;
+	width: 505px;
+	height: 39px;
+	border: 2px solid #808080;
+}
+.banner .form textarea {
+	display: block;
+	width: 505px;
+	height: 115px;
+	border: 2px solid #808080;
+}
+.banner .form .sub {
+	width: 127px;
+	height: 43px;
+	cursor: pointer;
+	border: 2px solid #808080;
+	color: #bdbdbd;
+}
+.banner .form input:hover,
+.banner .form textarea:hover{
+	border-color: #07cbc9;
+}
+.banner .form .sub:hover {
+	border: none;
+	background-color: #07cbc9;
+	color: #fff;
+}
+
+/*banner 图区域样式结束*/
+
+/*ABOUT区域样式开始*/
+
+.about {
+	width: 100%;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+}
+/*上面部分样式*/
+.about .top {
+	width: 520px;
+	text-align: center;
+	margin: 0 auto 35px auto;
+	padding-top: 60px;
+}
+.about .top h3 {
+	font-size: 40px;
+}
+.about .top .line {
+	width: 40px;
+	height: 2px;
+	border: none;
+	background: #07cbc9;
+	margin: 25px auto 20px auto;
+}
+.about .top .text01 {
+	color: #757575;
+	line-height: 1.5em;
+}
+/*中间部分样式*/
+.about .middle {
+	width: 1078px;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+}
+.about .middle .text02 {
+	width: 370px;
+	position: absolute;
+	left: 0px;
+}
+.about .middle .text02 h3 {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+.about .middle .text02 .word {
+	width: 370px;
+	height: 246px;
+	border: 1px solid #c5c5c5;
+	background-color: rgba(255,255,255,.4);
+}
+.about .middle .text02 .word .txt {
+	padding: 30px 0 20px 20px;
+}
+.about .middle .text02 .word button {
+	width: 102px;
+	height: 45px;
+	margin-left: 20px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.about .middle .text02 .word button:hover {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.about .middle .pic1 {
+	width: 568px;
+	height: 380px;
+	margin: 0 auto;
+}
+.about .middle .pic1 img {
+	width: 568px;
+	height: 380px;
+}
+.about .middle .text03 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 238px;
+	margin-left: 35px;
+}
+.about .middle .text03 .students,
+.about .middle .text03 .faculty {
+	width: 236px;
+	height: 144px;
+	border: 1px solid #07cbc9;
+}
+.about .middle .text03 .faculty {
+	margin-top: 30px;
+}
+.about .middle .text03 .students h3,
+.about .middle .text03 .faculty h3 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	padding: 25px 0 20px 0;
+}
+.about .middle .text03 .students .line,
+.about .middle .text03 .faculty .line {
+	width: 40px;
+	height: 2px;
+	background-color: #07cbc9;
+	margin: 0 auto;
+}
+.about .middle .text03 .students h5,
+.about .middle .text03 .faculty h5 {
+	font-size: 16px;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+/*底部样式*/
+
+.about .bottom {
+	width: 100%;
+	height: 800px;
+	margin-top: 100px;
+	position: relative;
+	top: 0;
+}
+.about .bottom .list {
+	width: 25%;
+	height: 800px;
+	float: left;
+}
+.about .bottom .list .list-img {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.about .bottom .list .list-img img {
+	width: 100%;
+	height: 400px;
+}
+.about .bottom .list .list-img .triangle-r {
+	width: 0;
+	height: 0;
+	border-width: 15px 20px;
+	border-style: solid;
+	border-color: transparent #07cbc9 transparent transparent;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+}
+.about .bottom .list .list-img .triangle-l {
+	width: 0;
+	height: 0;
+	border-width: 15px 20px;
+	border-style: solid;
+	border-color: transparent transparent transparent #07cbc9;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -15px;
+}
+.about .bottom .list .list-word {
+	width: 100%;
+	height: 400px;
+	background-color: #07cbc9;
+}
+.about .bottom .list .list-word .list-text {
+	width: 90%;
+	/*padding: 30px 0 0 30px;*/
+	margin: 0 auto;
+}
+.about .bottom .list .list-word .list-text .title {
+	font-size: 24px;
+	color: #fff;
+	padding-top: 30px;
+}
+.about .bottom .list .list-word .list-text .subtitle {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #f7f5f5;
+	margin-top: 15px;
+}
+.about .bottom .list .list-word .list-text .txt {
+	font-size: 12px;
+	line-height: 2em;
+	color: #dddddd;
+	margin-top: 20px;
+}
+.about .bottom .list .list-word .sub {
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	margin-top: 60px;
+}
+.about .bottom .list .list-word .sub button {
+	width: 102px;
+	height: 45px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.about .bottom .list .list-word .sub button:hover {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+
+/*ABOUT区域样式结束*/
+
+/*GALLERY区域样式开始*/
+
+.gallery {
+	width: 100%;
+	position: relative;
+	top: 80px;
+	margin-bottom: 100px;
+}
+
+/*GALLERY区域里的上面部分样式*/
+
+.gallery .top {
+	width: 520px;
+	text-align: center;
+	margin: 0 auto 35px auto;
+	padding-top: 60px;
+}
+.gallery .top h3 {
+	font-size: 40px;
+}
+.gallery .top .line {
+	width: 40px;
+	height: 2px;
+	border: none;
+	background: #07cbc9;
+	margin: 25px auto 20px auto;
+}
+.gallery .top .text01 {
+	color: #757575;
+	line-height: 1.5em;
+}
+
+/*GALLERY区域里的主体部分样式*/
+
+.gallery .container {
+	width: 1120px;
+	height: 628px;
+	margin: 0 auto;
+}
+.gallery .container .sub {
+	float: left;
+	width: 360px;
+	height: 304px;
+	margin-bottom: 20px;
+}
+.gallery .container .sub img {
+	display: block;
+}
+.gallery .container .sub .describe {
+	width: 360px;
+	height: 64px;
+	line-height: 64px;
+	text-indent: 1em;
+	background-color: #000;
+	color: #fff;
+}
+.gallery .container .li-1 {
+	margin: 0 20px 0 20px;
+}
+/*GALLERY区域样式结束*/
+
+/*网页底部footer区域样式开始*/
+
+.footer {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	color: #fff;
+	font-size: 12px;
+	background-color: #07cbc9;
+	position: relative;
+	top: 80px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*网页底部footer区域样式结束*/
